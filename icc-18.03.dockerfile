@@ -32,3 +32,7 @@ RUN cd intel && \
 RUN ln -s \
     /opt/intel/system_studio_2018 \
     /opt/intel/install
+
+RUN ln -s \
+    /opt/intel/system_studio_2018/compilers_and_libraries_2018.4.253/linux/compiler/lib/intel64_lin/ \
+    /opt/intel/ld_library_path
