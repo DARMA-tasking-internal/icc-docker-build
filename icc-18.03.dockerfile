@@ -1,4 +1,6 @@
 
+# ARG http_proxy=http://wwwproxy.sandia.gov:80/
+# ARG https_proxy=http://wwwproxy.sandia.gov:80/
 ARG arch=amd64
 FROM ubuntu:18.04
 
