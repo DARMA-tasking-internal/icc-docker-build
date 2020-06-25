@@ -28,3 +28,7 @@ RUN cd intel && \
     cd ../../ && \
     rm -rf intel && \
     rm -rf /tmp/*
+
+RUN ln -s \
+    /opt/intel/system_studio_2018 \
+    /opt/intel/install
